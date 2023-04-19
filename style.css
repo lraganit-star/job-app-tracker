@@ -1,0 +1,29 @@
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    padding: 15px;
+    border-bottom: solid 2px black;
+    background-color: #6d597a;
+    color: white;
+    font-size: 36px;
+}
+
+#add_card {
+    margin-left: auto;
+}
+
+#main {
+    padding-top: 15px;
+    display: flex;
+}
+
+.section {
+    border-right: solid 1px black;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+
+}
