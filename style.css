@@ -1,6 +1,7 @@
-.body {
+html, .body {
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 
 #header {
@@ -18,6 +19,7 @@
 #main {
     padding-top: 15px;
     display: flex;
+    height: 90%;
 }
 
 .section {
@@ -25,5 +27,13 @@
     display: flex;
     justify-content: center;
     flex: 1;
+    height: 90%;
 
+    font-size: 18px;
+
+}
+
+#applied {
+    display: flex;
+    flex-direction: column;
 }
